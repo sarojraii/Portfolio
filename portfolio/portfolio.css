@@ -1,0 +1,188 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("abstract-blue-geometric-shapes-background_24972-1841.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.main{
+    justify-content: center;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center ;
+    width: 84%;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.logo{
+    width: 9%;
+    margin-left: 20px ;
+    
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+    
+}
+
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+
+
+
+.btn a{
+    color: black;
+    padding: 10px 18px;
+    
+}
+
+.btn:hover{
+    background-color:greenyellow;
+}
+
+.btn{
+    border-radius: 20px;
+    border-color: grey;
+    border: 1px solid green;
+    margin: 20px 0;
+    text-decoration-line: none;
+    color: #212121;
+    padding: 2px 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.image img{
+
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image:hover .me{
+    left: 45% ;
+}
+
+.shape{
+    width: 400px;
+    height: 50px;
+    
+}
+
+.contactform {
+    font-family: sans-serif;
+    
+    padding: 0 34px;
+}
+
+.contactform h1 {
+    font-family: 'source code pro', monospace;
+    
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   width: 16vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+
+}
+
+#form-check {
+
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+#emailHelp{
+    font-size: 10px;
+    color: blue;
+    margin: 0 5px;
+}
+
+.contact{
+    padding: 0 70px;
+}
+
+.blog{
+    padding: 0 150px;
+}
+
+.btn2{
+    border-radius: 20px;
+    border-color: grey;
+    border: 1px solid green;
+    text-decoration-line: none;
+    color: #212121;
+    padding: 2px 10px;
+    box-shadow: 0 3px 10px black;
+}
+
+.btn2:hover{
+    background-color:greenyellow;
+}
+
+.about{
+    margin-left:140px;
+    
+}
+
+.multiText{
+    color: red;
+    text-transform: capitalize;
+}
